@@ -1,0 +1,15 @@
+D:\STUFF\DEV\Coding Dojo\s4 C#\firstcsharp\FirstCSharp\bin\Debug\net9.0\FirstCSharp.exe
+D:\STUFF\DEV\Coding Dojo\s4 C#\firstcsharp\FirstCSharp\bin\Debug\net9.0\FirstCSharp.deps.json
+D:\STUFF\DEV\Coding Dojo\s4 C#\firstcsharp\FirstCSharp\bin\Debug\net9.0\FirstCSharp.runtimeconfig.json
+D:\STUFF\DEV\Coding Dojo\s4 C#\firstcsharp\FirstCSharp\bin\Debug\net9.0\FirstCSharp.dll
+D:\STUFF\DEV\Coding Dojo\s4 C#\firstcsharp\FirstCSharp\bin\Debug\net9.0\FirstCSharp.pdb
+D:\STUFF\DEV\Coding Dojo\s4 C#\firstcsharp\FirstCSharp\obj\Debug\net9.0\FirstCSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUFF\DEV\Coding Dojo\s4 C#\firstcsharp\FirstCSharp\obj\Debug\net9.0\FirstCSharp.AssemblyInfoInputs.cache
+D:\STUFF\DEV\Coding Dojo\s4 C#\firstcsharp\FirstCSharp\obj\Debug\net9.0\FirstCSharp.AssemblyInfo.cs
+D:\STUFF\DEV\Coding Dojo\s4 C#\firstcsharp\FirstCSharp\obj\Debug\net9.0\FirstCSharp.csproj.CoreCompileInputs.cache
+D:\STUFF\DEV\Coding Dojo\s4 C#\firstcsharp\FirstCSharp\obj\Debug\net9.0\FirstCSharp.sourcelink.json
+D:\STUFF\DEV\Coding Dojo\s4 C#\firstcsharp\FirstCSharp\obj\Debug\net9.0\FirstCSharp.dll
+D:\STUFF\DEV\Coding Dojo\s4 C#\firstcsharp\FirstCSharp\obj\Debug\net9.0\refint\FirstCSharp.dll
+D:\STUFF\DEV\Coding Dojo\s4 C#\firstcsharp\FirstCSharp\obj\Debug\net9.0\FirstCSharp.pdb
+D:\STUFF\DEV\Coding Dojo\s4 C#\firstcsharp\FirstCSharp\obj\Debug\net9.0\FirstCSharp.genruntimeconfig.cache
+D:\STUFF\DEV\Coding Dojo\s4 C#\firstcsharp\FirstCSharp\obj\Debug\net9.0\ref\FirstCSharp.dll
