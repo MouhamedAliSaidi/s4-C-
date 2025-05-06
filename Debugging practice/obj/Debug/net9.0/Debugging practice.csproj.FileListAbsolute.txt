@@ -1,0 +1,15 @@
+D:\STUFF\DEV\Coding Dojo\s4 C#\Debugging practice\bin\Debug\net9.0\Debugging practice.exe
+D:\STUFF\DEV\Coding Dojo\s4 C#\Debugging practice\bin\Debug\net9.0\Debugging practice.deps.json
+D:\STUFF\DEV\Coding Dojo\s4 C#\Debugging practice\bin\Debug\net9.0\Debugging practice.runtimeconfig.json
+D:\STUFF\DEV\Coding Dojo\s4 C#\Debugging practice\bin\Debug\net9.0\Debugging practice.dll
+D:\STUFF\DEV\Coding Dojo\s4 C#\Debugging practice\bin\Debug\net9.0\Debugging practice.pdb
+D:\STUFF\DEV\Coding Dojo\s4 C#\Debugging practice\obj\Debug\net9.0\Debugging practice.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUFF\DEV\Coding Dojo\s4 C#\Debugging practice\obj\Debug\net9.0\Debugging practice.AssemblyInfoInputs.cache
+D:\STUFF\DEV\Coding Dojo\s4 C#\Debugging practice\obj\Debug\net9.0\Debugging practice.AssemblyInfo.cs
+D:\STUFF\DEV\Coding Dojo\s4 C#\Debugging practice\obj\Debug\net9.0\Debugging practice.csproj.CoreCompileInputs.cache
+D:\STUFF\DEV\Coding Dojo\s4 C#\Debugging practice\obj\Debug\net9.0\Debugging practice.sourcelink.json
+D:\STUFF\DEV\Coding Dojo\s4 C#\Debugging practice\obj\Debug\net9.0\Debugging practice.dll
+D:\STUFF\DEV\Coding Dojo\s4 C#\Debugging practice\obj\Debug\net9.0\refint\Debugging practice.dll
+D:\STUFF\DEV\Coding Dojo\s4 C#\Debugging practice\obj\Debug\net9.0\Debugging practice.pdb
+D:\STUFF\DEV\Coding Dojo\s4 C#\Debugging practice\obj\Debug\net9.0\Debugging practice.genruntimeconfig.cache
+D:\STUFF\DEV\Coding Dojo\s4 C#\Debugging practice\obj\Debug\net9.0\ref\Debugging practice.dll
