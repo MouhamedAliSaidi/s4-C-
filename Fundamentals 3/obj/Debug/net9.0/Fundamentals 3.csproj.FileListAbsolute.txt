@@ -1,0 +1,15 @@
+D:\STUFF\DEV\Coding Dojo\s4 C#\Fundamentals 3\bin\Debug\net9.0\Fundamentals 3.exe
+D:\STUFF\DEV\Coding Dojo\s4 C#\Fundamentals 3\bin\Debug\net9.0\Fundamentals 3.deps.json
+D:\STUFF\DEV\Coding Dojo\s4 C#\Fundamentals 3\bin\Debug\net9.0\Fundamentals 3.runtimeconfig.json
+D:\STUFF\DEV\Coding Dojo\s4 C#\Fundamentals 3\bin\Debug\net9.0\Fundamentals 3.dll
+D:\STUFF\DEV\Coding Dojo\s4 C#\Fundamentals 3\bin\Debug\net9.0\Fundamentals 3.pdb
+D:\STUFF\DEV\Coding Dojo\s4 C#\Fundamentals 3\obj\Debug\net9.0\Fundamentals 3.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUFF\DEV\Coding Dojo\s4 C#\Fundamentals 3\obj\Debug\net9.0\Fundamentals 3.AssemblyInfoInputs.cache
+D:\STUFF\DEV\Coding Dojo\s4 C#\Fundamentals 3\obj\Debug\net9.0\Fundamentals 3.AssemblyInfo.cs
+D:\STUFF\DEV\Coding Dojo\s4 C#\Fundamentals 3\obj\Debug\net9.0\Fundamentals 3.csproj.CoreCompileInputs.cache
+D:\STUFF\DEV\Coding Dojo\s4 C#\Fundamentals 3\obj\Debug\net9.0\Fundamentals 3.sourcelink.json
+D:\STUFF\DEV\Coding Dojo\s4 C#\Fundamentals 3\obj\Debug\net9.0\Fundamentals 3.dll
+D:\STUFF\DEV\Coding Dojo\s4 C#\Fundamentals 3\obj\Debug\net9.0\refint\Fundamentals 3.dll
+D:\STUFF\DEV\Coding Dojo\s4 C#\Fundamentals 3\obj\Debug\net9.0\Fundamentals 3.pdb
+D:\STUFF\DEV\Coding Dojo\s4 C#\Fundamentals 3\obj\Debug\net9.0\Fundamentals 3.genruntimeconfig.cache
+D:\STUFF\DEV\Coding Dojo\s4 C#\Fundamentals 3\obj\Debug\net9.0\ref\Fundamentals 3.dll
