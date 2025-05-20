@@ -1,8 +1,5 @@
-Debugging practice/obj/Debug/net9.0/Debugging practice.AssemblyInfo.cs
-*.cs
-Fundamentals 3/obj/Debug/net9.0/Fundamentals 3.AssemblyInfo.cs
-Fundamentals 3/obj/Debug/net9.0/Fundamentals 3.AssemblyInfoInputs.cache
-Fundamentals 3/obj/Debug/net9.0/Fundamentals 3.AssemblyInfoInputs.cache
-Fundamentals 3/obj/Debug/net9.0/Fundamentals 3.AssemblyInfo.cs
-Fundamentals 3/obj/Debug/net9.0/Fundamentals 3.AssemblyInfoInputs.cache
-.gitattributes
+Ride Maker - Copy/RideMaker/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+Ride Maker - Copy/RideMaker/obj/Debug/net9.0/RideMaker.GlobalUsings.g.cs
+Ride Maker - Copy/RideMaker/obj/Debug/net9.0/RideMaker.AssemblyInfo.cs
+Ride Maker - Copy/RideMaker/Program.cs
+Ride Maker - Copy/RideMaker/Vehicle.cs
