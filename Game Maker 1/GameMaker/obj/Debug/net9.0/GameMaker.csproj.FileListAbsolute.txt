@@ -1,0 +1,15 @@
+D:\STUFF\DEV\Coding Dojo\s4 C#\Game Maker 1\GameMaker\bin\Debug\net9.0\GameMaker.exe
+D:\STUFF\DEV\Coding Dojo\s4 C#\Game Maker 1\GameMaker\bin\Debug\net9.0\GameMaker.deps.json
+D:\STUFF\DEV\Coding Dojo\s4 C#\Game Maker 1\GameMaker\bin\Debug\net9.0\GameMaker.runtimeconfig.json
+D:\STUFF\DEV\Coding Dojo\s4 C#\Game Maker 1\GameMaker\bin\Debug\net9.0\GameMaker.dll
+D:\STUFF\DEV\Coding Dojo\s4 C#\Game Maker 1\GameMaker\bin\Debug\net9.0\GameMaker.pdb
+D:\STUFF\DEV\Coding Dojo\s4 C#\Game Maker 1\GameMaker\obj\Debug\net9.0\GameMaker.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUFF\DEV\Coding Dojo\s4 C#\Game Maker 1\GameMaker\obj\Debug\net9.0\GameMaker.AssemblyInfoInputs.cache
+D:\STUFF\DEV\Coding Dojo\s4 C#\Game Maker 1\GameMaker\obj\Debug\net9.0\GameMaker.AssemblyInfo.cs
+D:\STUFF\DEV\Coding Dojo\s4 C#\Game Maker 1\GameMaker\obj\Debug\net9.0\GameMaker.csproj.CoreCompileInputs.cache
+D:\STUFF\DEV\Coding Dojo\s4 C#\Game Maker 1\GameMaker\obj\Debug\net9.0\GameMaker.sourcelink.json
+D:\STUFF\DEV\Coding Dojo\s4 C#\Game Maker 1\GameMaker\obj\Debug\net9.0\GameMaker.dll
+D:\STUFF\DEV\Coding Dojo\s4 C#\Game Maker 1\GameMaker\obj\Debug\net9.0\refint\GameMaker.dll
+D:\STUFF\DEV\Coding Dojo\s4 C#\Game Maker 1\GameMaker\obj\Debug\net9.0\GameMaker.pdb
+D:\STUFF\DEV\Coding Dojo\s4 C#\Game Maker 1\GameMaker\obj\Debug\net9.0\GameMaker.genruntimeconfig.cache
+D:\STUFF\DEV\Coding Dojo\s4 C#\Game Maker 1\GameMaker\obj\Debug\net9.0\ref\GameMaker.dll
