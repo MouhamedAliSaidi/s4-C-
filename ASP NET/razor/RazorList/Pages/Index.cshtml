@@ -1,0 +1,13 @@
+﻿@page
+
+<h1>Here are some delicious foods</h1>
+
+@{
+    var items = new List<string> { "Applie Pie","Pizza","Cinamon Rolls","Lasagna","Donutgs","Chocolate Cake","Burritos" };
+}
+
+@foreach (var item in items)
+{
+    var isRed = item.StartsWith("c") || item.StartsWith("C");
+    <p style="@(isRed ? "color:red;" : "")">@item</p>
+}
