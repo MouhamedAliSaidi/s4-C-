@@ -1,0 +1,25 @@
+﻿@model DojoSurvey2.Models.Survey
+
+<form asp-action="Submit" method="post">
+    <label>Your Name:</label>
+    <input asp-for="Name" />
+
+    <label>Dojo Location:</label>
+    <select asp-for="Location">
+        <option>San Jose</option>
+        <option>Seattle</option>
+        <option>Chicago</option>
+    </select>
+
+    <label>Favorite Language:</label>
+    <select asp-for="Language">
+        <option>C#</option>
+        <option>JavaScript</option>
+        <option>Python</option>
+    </select>
+
+    <label>Comment (optional):</label>
+    <textarea asp-for="Comment"></textarea>
+
+    <button type="submit">Submit</button>
+</form>
