@@ -1,0 +1,22 @@
+﻿<h1>Current Value: @Model</h1>
+
+<form method="post" action="/Home/Update">
+    <input type="hidden" name="operation" value="+1">
+    <button type="submit">+1</button>
+</form>
+<form method="post" action="/Home/Update">
+    <input type="hidden" name="operation" value="-1">
+    <button type="submit">-1</button>
+</form>
+<form method="post" action="/Home/Update">
+    <input type="hidden" name="operation" value="x2">
+    <button type="submit">x2</button>
+</form>
+<form method="post" action="/Home/Update">
+    <input type="hidden" name="operation" value="random">
+    <button type="submit">+ Random</button>
+</form>
+<form method="post" action="/Home/Update">
+    <input type="hidden" name="operation" value="reset">
+    <button type="submit">Reset</button>
+</form>
