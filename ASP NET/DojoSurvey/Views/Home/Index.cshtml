@@ -1,0 +1,27 @@
+﻿@model WebMessageApp.Models.UserSubmission
+
+<h2>Enter Your Info</h2>
+
+<form action="/submit" method="post">
+    <label>Your Name:</label><br>
+    <input type="text" name="Name" /><br><br>
+
+    <label>Dojo Location:</label><br>
+    <select name="DojoLocation">
+        <option>San Jose</option>
+        <option>New York</option>
+        <option>Chicago</option>
+    </select><br><br>
+
+    <label>Favorite Language:</label><br>
+    <select name="FavoriteLanguage">
+        <option>C#</option>
+        <option>Python</option>
+        <option>JavaScript</option>
+    </select><br><br>
+
+    <label>Comment (optional):</label><br>
+    <textarea name="Comment"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+</form>
