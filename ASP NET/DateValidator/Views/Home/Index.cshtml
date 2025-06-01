@@ -1,0 +1,23 @@
+﻿@model DateValidator.Models.Person
+
+<h2>Enter Your Info</h2>
+
+<form asp-action="Submit" method="post">
+    <div>
+        <label>Name:</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Birthday:</label>
+        <input asp-for="Birthday" type="date" />
+        <span asp-validation-for="Birthday" class="text-danger"></span>
+    </div>
+
+    <button type="submit">Submit</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
