@@ -1,0 +1,19 @@
+@model List<YourApp.Models.User>
+@{
+    ViewData["Title"] = "Users";
+}
+
+<nav>
+    <a href="/">Message</a> |
+    <a href="/Home/Numbers">Numbers</a> |
+    <a href="/Home/User">User</a> |
+    <a href="/Home/Users">Users</a>
+</nav>
+
+<h2>Here is a List of Users</h2>
+<ul>
+@foreach (var user in Model)
+{
+    <li>@user.FullName</li>
+}
+</ul>

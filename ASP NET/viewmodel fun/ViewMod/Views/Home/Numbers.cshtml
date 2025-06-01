@@ -1,0 +1,19 @@
+@model int[]
+@{
+    ViewData["Title"] = "Numbers";
+}
+
+<nav>
+    <a href="/">Message</a> |
+    <a href="/Home/Numbers">Numbers</a> |
+    <a href="/Home/User">User</a> |
+    <a href="/Home/Users">Users</a>
+</nav>
+
+<h2>Here are some numbers</h2>
+<ul>
+@foreach (var number in Model)
+{
+    <li>@number</li>
+}
+</ul>
