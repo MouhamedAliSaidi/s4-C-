@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DrinkMaster")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08f0d97f9aeda38823c2204a66d6f2dbafa837f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8663af17dffab4ea037f85a7f4f17ec9267d61c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("DrinkMaster")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DrinkMaster")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
