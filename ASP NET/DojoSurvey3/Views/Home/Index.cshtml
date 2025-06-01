@@ -1,0 +1,43 @@
+﻿@model DojoSurvey3.Models.Survey
+
+<form asp-action="Submit" method="post">
+    <div>
+        <label>Name:</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Dojo Location:</label>
+        <select asp-for="Location">
+            <option value="">-- Select a location --</option>
+            <option>Seattle</option>
+            <option>Chicago</option>
+            <option>San Jose</option>
+        </select>
+        <span asp-validation-for="Location" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Favorite Language:</label>
+        <select asp-for="Language">
+            <option value="">-- Select a language --</option>
+            <option>C#</option>
+            <option>Python</option>
+            <option>JavaScript</option>
+        </select>
+        <span asp-validation-for="Language" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Comment:</label>
+        <textarea asp-for="Comment"></textarea>
+        <span asp-validation-for="Comment" class="text-danger"></span>
+    </div>
+
+    <button type="submit">Submit</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,9 @@
+@model DojoSurvey3.Models.Survey
+
+<h2>Submitted Info</h2>
+<p><strong>Name:</strong> @Model.Name</p>
+<p><strong>Dojo Location:</strong> @Model.Location</p>
+<p><strong>Favorite Language:</strong> @Model.Language</p>
+<p><strong>Comment:</strong> @(string.IsNullOrWhiteSpace(Model.Comment) ? "No comment" : Model.Comment)</p>
+
+<a asp-controller="Home" asp-action="Index">Go back</a>
