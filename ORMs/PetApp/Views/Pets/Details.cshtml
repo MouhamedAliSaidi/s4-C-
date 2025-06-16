@@ -1,0 +1,14 @@
+@model Pet
+@{
+    ViewData["Title"] = "Pet Details";
+}
+
+<h2>@Model.Name</h2>
+
+<ul>
+    <li><strong>Type:</strong> @Model.PetType</li>
+    <li><strong>Age:</strong> @Model.Age</li>
+    <li><strong>Has Fur:</strong> @(Model.HasFur ? "Yes" : "No")</li>
+</ul>
+
+<a asp-action="Index">Back to list</a>

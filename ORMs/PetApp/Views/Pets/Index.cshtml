@@ -1,0 +1,35 @@
+@model List<Pet>
+@{
+    ViewData["Title"] = "Pets List";
+}
+
+<h2>All Pets</h2>
+<a asp-action="Create">+ Add New Pet</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Age</th>
+            <th>Has Fur?</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var pet in Model)
+        {
+            <tr>
+                <td>@pet.Name</td>
+                <td>@pet.PetType</td>
+                <td>@pet.Age</td>
+                <td>@(pet.HasFur ? "Yes" : "No")</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@pet.Id">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@pet.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@pet.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
