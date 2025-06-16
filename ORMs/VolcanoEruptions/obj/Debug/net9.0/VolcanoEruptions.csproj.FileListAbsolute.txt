@@ -1,0 +1,15 @@
+D:\STUFF\DEV\Coding Dojo\s4 C#\ORMs\VolcanoEruptions\bin\Debug\net9.0\VolcanoEruptions.exe
+D:\STUFF\DEV\Coding Dojo\s4 C#\ORMs\VolcanoEruptions\bin\Debug\net9.0\VolcanoEruptions.deps.json
+D:\STUFF\DEV\Coding Dojo\s4 C#\ORMs\VolcanoEruptions\bin\Debug\net9.0\VolcanoEruptions.runtimeconfig.json
+D:\STUFF\DEV\Coding Dojo\s4 C#\ORMs\VolcanoEruptions\bin\Debug\net9.0\VolcanoEruptions.dll
+D:\STUFF\DEV\Coding Dojo\s4 C#\ORMs\VolcanoEruptions\bin\Debug\net9.0\VolcanoEruptions.pdb
+D:\STUFF\DEV\Coding Dojo\s4 C#\ORMs\VolcanoEruptions\obj\Debug\net9.0\VolcanoEruptions.GeneratedMSBuildEditorConfig.editorconfig
+D:\STUFF\DEV\Coding Dojo\s4 C#\ORMs\VolcanoEruptions\obj\Debug\net9.0\VolcanoEruptions.AssemblyInfoInputs.cache
+D:\STUFF\DEV\Coding Dojo\s4 C#\ORMs\VolcanoEruptions\obj\Debug\net9.0\VolcanoEruptions.AssemblyInfo.cs
+D:\STUFF\DEV\Coding Dojo\s4 C#\ORMs\VolcanoEruptions\obj\Debug\net9.0\VolcanoEruptions.csproj.CoreCompileInputs.cache
+D:\STUFF\DEV\Coding Dojo\s4 C#\ORMs\VolcanoEruptions\obj\Debug\net9.0\VolcanoEruptions.sourcelink.json
+D:\STUFF\DEV\Coding Dojo\s4 C#\ORMs\VolcanoEruptions\obj\Debug\net9.0\VolcanoEruptions.dll
+D:\STUFF\DEV\Coding Dojo\s4 C#\ORMs\VolcanoEruptions\obj\Debug\net9.0\refint\VolcanoEruptions.dll
+D:\STUFF\DEV\Coding Dojo\s4 C#\ORMs\VolcanoEruptions\obj\Debug\net9.0\VolcanoEruptions.pdb
+D:\STUFF\DEV\Coding Dojo\s4 C#\ORMs\VolcanoEruptions\obj\Debug\net9.0\VolcanoEruptions.genruntimeconfig.cache
+D:\STUFF\DEV\Coding Dojo\s4 C#\ORMs\VolcanoEruptions\obj\Debug\net9.0\ref\VolcanoEruptions.dll
