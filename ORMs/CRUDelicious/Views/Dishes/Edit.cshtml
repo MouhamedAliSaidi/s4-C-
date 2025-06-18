@@ -1,0 +1,49 @@
+@model Dish
+
+<h2>Edit @Model.Name</h2>
+<a href="/dishes">Home</a> | <a href="/dishes/new">Add a Dish</a>
+<hr />
+
+<form asp-action="Update" asp-controller="Dishes" asp-route-id="@Model.DishId" method="post">
+    <div>
+        <label>Chef's Name</label>
+        <input asp-for="Chef" />
+        <span asp-validation-for="Chef" class="text-danger"></span>
+    </div>
+    
+    <div>
+        <label>Name of Dish</label>
+        <input asp-for="Name" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label># of Calories</label>
+        <input asp-for="Calories" />
+        <span asp-validation-for="Calories" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Tastiness</label>
+        <select asp-for="Tastiness">
+            <option selected="@(Model.Tastiness == 1)">1</option>
+            <option selected="@(Model.Tastiness == 2)">2</option>
+            <option selected="@(Model.Tastiness == 3)">3</option>
+            <option selected="@(Model.Tastiness == 4)">4</option>
+            <option selected="@(Model.Tastiness == 5)">5</option>
+        </select>
+        <span asp-validation-for="Tastiness" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label>Description</label>
+        <textarea asp-for="Description"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <button type="submit">Edit Dish</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

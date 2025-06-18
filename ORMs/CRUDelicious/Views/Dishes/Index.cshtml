@@ -1,0 +1,13 @@
+@model List<Dish>
+
+<h1>Welcome to CRUDelicious</h1>
+<a href="/dishes/new">Add a Dish</a>
+<hr />
+<h4>Check out some recent dishes</h4>
+
+@foreach (var dish in Model)
+{
+    <p>
+        <a href="/dishes/@dish.DishId">@dish.Name</a> by @dish.Chef
+    </p>
+}
