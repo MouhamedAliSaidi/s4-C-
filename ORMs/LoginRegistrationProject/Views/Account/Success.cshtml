@@ -1,0 +1,14 @@
+@model LoginRegistrationProject.Models.User
+
+@{
+    ViewData["Title"] = "Success";
+}
+
+<h2>Welcome, @Model.FirstName!</h2>
+
+<p>You are successfully logged in.</p>
+
+<!-- Logout form -->
+<form asp-action="Logout" method="post">
+    <button type="submit">Logout</button>
+</form>
