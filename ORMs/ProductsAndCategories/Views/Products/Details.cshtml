@@ -1,0 +1,26 @@
+@model Product
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var availableCategories = ViewBag.AvailableCategories as List<Category>;
+}
+<h2>@Model.Name</h2>
+
+<h3>Categories</h3>
+<ul>
+@foreach (var a in Model.CategoriesLink)
+{
+    <li>@a.Category?.Name</li>
+}
+</ul>
+
+<h3>Add Category</h3>
+<form asp-action="AddCategory" method="post">
+    <select name="CategoryId">
+        @foreach (var c in availableCategories)
+        {
+            <option value="@c.CategoryId">@c.Name</option>
+        }
+    </select>
+    <input type="hidden" name="ProductId" value="@Model.ProductId" />
+    <button>Add</button>
+</form>

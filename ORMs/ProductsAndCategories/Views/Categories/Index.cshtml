@@ -1,0 +1,18 @@
+@model List<Category>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>New Category</h2>
+<form asp-action="Create" method="post">
+    <label>Name:</label>
+    <input name="Name" />
+    <button>Create</button>
+</form>
+
+<h2>All Categories</h2>
+<ul>
+@foreach (var c in Model)
+{
+    <li><a href="/categories/@c.CategoryId">@c.Name</a></li>
+}
+</ul>
