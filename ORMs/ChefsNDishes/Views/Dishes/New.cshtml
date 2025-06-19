@@ -1,0 +1,39 @@
+@model Dish
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var chefs = ViewBag.Chefs as List<Chef>;
+}
+<h2>Add a dish</h2>
+<form asp-action="Create" asp-controller="Dishes" method="post">
+    <label>Name of Dish:</label>
+    <input asp-for="Name" />
+    <span asp-validation-for="Name"></span><br/>
+
+    <label>Chef's Name:</label>
+    <select asp-for="ChefId">
+        @foreach (var chef in chefs)
+        {
+            <option value="@chef.ChefId">@chef.FirstName @chef.LastName</option>
+        }
+    </select>
+    <span asp-validation-for="ChefId"></span><br/>
+
+    <label># of Calories:</label>
+    <input asp-for="Calories" type="number" />
+    <span asp-validation-for="Calories"></span><br/>
+
+    <label>Tastiness:</label>
+    <select asp-for="Tastiness">
+        @for (int i = 1; i <= 5; i++)
+        {
+            <option value="@i">@i</option>
+        }
+    </select>
+    <span asp-validation-for="Tastiness"></span><br/>
+
+    <button>Add Dish</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

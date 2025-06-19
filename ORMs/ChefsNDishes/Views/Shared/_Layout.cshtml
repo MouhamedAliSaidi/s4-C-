@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Chefs & Dishes</title>
+</head>
+<body>
+    <nav>
+        <a href="/chefs">Chefs</a> |
+        <a href="/dishes">Dishes</a> |
+        <a href="/chefs/new">Add a Chef</a> |
+        <a href="/dishes/new">Add a Dish</a>
+    </nav>
+    <hr />
+    <main>
+        @RenderBody()
+    </main>
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

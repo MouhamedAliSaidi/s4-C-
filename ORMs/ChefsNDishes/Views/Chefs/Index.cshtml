@@ -1,0 +1,22 @@
+@model List<Chef>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Check out our roster of chefs!</h2>
+<table>
+    <thead>
+        <tr><th>Name</th><th>Age</th><th># of Dishes</th></tr>
+    </thead>
+    <tbody>
+    @foreach (var chef in Model)
+    {
+        var age = DateTime.Now.Year - chef.DateOfBirth.Year;
+        if (chef.DateOfBirth > DateTime.Now.AddYears(-age)) age--;
+        <tr>
+            <td>@chef.FirstName @chef.LastName</td>
+            <td>@age</td>
+            <td>@chef.CreatedDishes.Count</td>
+        </tr>
+    }
+    </tbody>
+</table>

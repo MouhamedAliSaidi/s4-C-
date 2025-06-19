@@ -1,0 +1,16 @@
+namespace MyApp.Views.Dishes;
+@model List<Dish>
+
+<h2>Yum! Check out our tasty dishes!</h2>
+<table>
+<tr><th>Name</th><th>Chef</th><th>Tastiness</th><th>Calories</th></tr>
+@foreach(var d in Model)
+{
+    <tr>
+        <td>@d.Name</td>
+        <td>@d.Chef?.FirstName @d.Chef?.LastName</td>
+        <td>@d.Tastiness</td>
+        <td>@d.Calories</td>
+    </tr>
+}
+</table>

@@ -1,0 +1,24 @@
+@model Chef
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Add a chef</h2>
+<form asp-action="Create" asp-controller="Chefs" method="post">
+    <label>First Name:</label>
+    <input asp-for="FirstName" />
+    <span asp-validation-for="FirstName"></span><br/>
+
+    <label>Last Name:</label>
+    <input asp-for="LastName" />
+    <span asp-validation-for="LastName"></span><br/>
+
+    <label>Date of Birth:</label>
+    <input asp-for="DateOfBirth" type="date" />
+    <span asp-validation-for="DateOfBirth"></span><br/>
+
+    <button>Add Chef</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
