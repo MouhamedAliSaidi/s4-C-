@@ -1,0 +1,38 @@
+@model Wedding
+@{
+    Layout = "_Layout";
+}
+
+<h2>Plan a Wedding</h2>
+
+<form asp-action="CreateWedding" method="post">
+    <div>
+        <label asp-for="WedderOne">Wedder One:</label>
+        <input asp-for="WedderOne" />
+        <span asp-validation-for="WedderOne"></span>
+    </div>
+
+    <div>
+        <label asp-for="WedderTwo">Wedder Two:</label>
+        <input asp-for="WedderTwo" />
+        <span asp-validation-for="WedderTwo"></span>
+    </div>
+
+    <div>
+        <label asp-for="Date">Wedding Date:</label>
+        <input asp-for="Date" type="date" />
+        <span asp-validation-for="Date"></span>
+    </div>
+
+    <div>
+        <label asp-for="Address">Address:</label>
+        <input asp-for="Address" />
+        <span asp-validation-for="Address"></span>
+    </div>
+
+    <button type="submit">Create Wedding</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

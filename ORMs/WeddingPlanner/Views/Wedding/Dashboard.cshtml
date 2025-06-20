@@ -1,0 +1,42 @@
+@model List<Wedding>
+@{
+    int userId = (int)ViewBag.UserId;
+}
+
+<div style="display: flex; justify-content: space-between; align-items: center;">
+    <h2>Welcome to the Wedding Planner</h2>
+    <div>
+        <a asp-controller="Wedding" asp-action="NewWedding">Plan a Wedding</a>
+        <form asp-controller="Home" asp-action="Logout" method="post" style="display: inline;">
+            <button type="submit">Logout</button>
+        </form>
+    </div>
+</div>
+
+<table>
+    <tr>
+        <th>Wedding</th><th>Date</th><th>Guests</th><th>Action</th>
+    </tr>
+@foreach (var w in Model)
+{
+    <tr>
+        <td><a asp-action="ViewWedding" asp-route-id="@w.WeddingId">@w.WedderOne & @w.WedderTwo</a></td>
+        <td>@w.Date.ToString("MMM dd yyyy")</td>
+        <td>@w.Guests.Count</td>
+        <td>
+            @if (w.UserId == userId)
+            {
+                <form asp-action="Delete" asp-route-id="@w.WeddingId" method="post"><button>Delete</button></form>
+            }
+            else if (w.Guests.Any(g => g.UserId == userId))
+            {
+                <form asp-action="UnRSVP" asp-route-id="@w.WeddingId" method="post"><button>Un-RSVP</button></form>
+            }
+            else
+            {
+                <form asp-action="RSVP" asp-route-id="@w.WeddingId" method="post"><button>RSVP</button></form>
+            }
+        </td>
+    </tr>
+}
+</table>
